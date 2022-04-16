@@ -11,6 +11,7 @@ var expressErrorHandler = require('express-error-handler');
 var expressSession = require('express-session')
 
 var app = express();
+
 app.set('port', process.env.PORT || 3000)
 
 app.use(bodyParser.urlencoded({extended : false}))
